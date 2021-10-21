@@ -3,3 +3,5 @@ const lugarController = require("../controllers/lugar")
 
 router.post('/agregarLugar', lugarController.postAgregarLugar)
 router.post('/obtenerLugares', lugarController.getObtenerLugares)
+
+module.exports = router

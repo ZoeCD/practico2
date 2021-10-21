@@ -6,7 +6,7 @@ const LugaresSchema = mongoose.Schema({
         type:String,
         required: true
     },
-    ciudad:{
+    pais:{
         type:String,
         required: true
     },
